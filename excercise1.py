@@ -10,20 +10,25 @@ while 1:
     a=int(input("Input first number"))
     b=int(input("Input second number"))
     print(a+b)
+    break
   if myoperator==2:
     
     a=int(input("Input first number"))
     b=int(input("Input second number"))
     print(a*b)
+    break
   if myoperator==3:
     
     a=int(input("Input first number"))
     b=int(input("Input second number"))
     print(a/b)
+    break
   if myoperator==4:
     
     a=int(input("Input first number"))
     b=int(input("Input second number"))
     print(a-b)
+    break
   else:
     print("Warning: Choose between 1 to 4!!")
+    continue
